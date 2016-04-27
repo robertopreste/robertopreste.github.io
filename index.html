@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Roberto Preste</title>
+
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <style>
+
+        body {
+            background-image: url("images/binding_dark.png");
+            background-attachment: fixed;
+        }
+
+        h1 {
+            color: #e64d00;
+            text-shadow: none;
+        }
+        
+        h2 {
+            color: #e64d00;
+        }
+
+        h3 {
+            color: #DC6F37;
+            text-shadow: none;
+        }
+
+        h4 {
+            color: #DC6F37;
+            text-shadow: none;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #DC6F37;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+            color: #e64d00;
+        }
+        
+        #navbar_first {
+            color: #DC6F37;
+        }
+
+        .panel {
+            background-image: url("images/black_lozenge.png");
+        }
+
+    </style>
+
+</head>
+<body data-spy="scroll" data-target=".navbar">
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+
+        <div class="container-fluid">
+
+            <div class="navbar-header">
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+
+                </button>
+
+                <a id="navbar_first" class="navbar-brand" href="#">Roberto Preste</a>
+
+            </div>
+
+            <div class="collapse navbar-collapse" id="myNavbar">
+
+                <ul class="nav navbar-nav">
+
+                    <li><a class="active" href="#main-section">Info</a></li>
+                    <li><a href="#portfolio-section">Portfolio</a></li>
+                    <li><a href="#contacts-section">Contacts</a></li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <br>
+
+    <a href="#" id="main-section"></a>
+
+    <br>
+    <br>
+
+    <!-- Main container -->
+
+    <div class="container-fluid">
+
+        <br>
+
+        <!-- Main section with photo and basic information -->
+
+        <div class="row">
+
+            <div class="col-xs-10 col-xs-offset-1 panel panel-danger">
+
+                <br>
+
+                <div class="panel-heading">
+
+                    <h2 class="text-center">Info</h2>
+
+                </div>
+
+                <br>
+
+                <div class="panel-body">
+
+                    <div class="row">
+
+                        <div class="col-xs-3 col-xs-offset-2">
+
+                            <br>
+
+                            <img id="profile_pic" class="img-circle img-responsive" src="images/preste_roberto_web.jpg" alt="Roberto Preste">
+
+                        </div>
+
+                        <div class="col-xs-4 col-xs-offset-2">
+
+                            <br>
+
+                            <h1>Roberto Preste</h1>
+
+                            <h3>Web Developer at ELIXIR</h3>
+
+                            <h4>Cambridge, UK</h4>
+
+                            <h3><a href="mailto:roberto.preste@gmail.com">roberto.preste@gmail.com</a></h3>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <br>
+
+            </div>
+
+        </div>
+
+        <a href="#" id="portfolio-section"></a>
+
+        <br>
+
+        <br>
+
+        <!-- Portfolio Section -->
+
+        <div class="row">
+
+            <div class="col-xs-10 col-xs-offset-1 panel panel-danger">
+
+                <br>
+
+                <div class="panel-heading">
+
+                    <h2 class="text-center">Portfolio</h2>
+
+                </div>
+
+                <div class="panel-body">
+
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+
+                            <div class="item active">
+
+                                <a href="http://bioschemas.org/" target="_blank">
+                                    <img class="portfolio-img" src="images/bioschemas_crop.png" alt="Bioschemas Website">
+                                    <div class="carousel-caption">
+                                        <h3 class="carousel_text">Bioschemas</h3>
+                                        <h4 class="carousel_text">A project that aims at expanding schema.org markup to biological objects.</h4>
+                                    </div>
+                                </a>
+
+                            </div>
+
+                            <div class="item">
+
+                                <a href="http://github.com/mitoNGS/MToolBox" target="_blank">
+                                    <img class="portfolio-img" src="images/mtoolbox_resize.png" alt="MToolBox">
+                                    <div class="carousel-caption">
+                                        <h3 class="carousel_text">MToolBox</h3>
+                                        <h4 class="carousel_text">A bioinfomatics pipeline providing mitochondrial genome reconstruction from NGS data.</h4>
+                                    </div>
+                                </a>
+
+                            </div>
+
+                            <div class="item">
+
+                                <a href="#" target="_blank">
+                                    <img class="portfolio-img" src="images/browser_resize.png" alt="BROWSer">
+                                    <div class="carousel-caption">
+                                        <h3 class="carousel_text">BROWSer</h3>
+                                        <h4 class="carousel_text">[Coming soon] A bioinfomatics spin-off from the University of Bari.</h4>
+                                    </div>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+
+                </div>
+
+                <br>
+
+            </div>
+        </div>
+
+        <a href="#" id="contacts-section"></a>
+
+        <br>
+
+        <br>
+
+        <!-- Contacts -->
+
+        <div class="row">
+
+            <div class="col-xs-10 col-xs-offset-1 panel panel-danger">
+
+                <br>
+
+                <div class="panel-heading">
+
+                    <h2 class="text-center">Contacts</h2>
+
+                </div>
+
+                <br>
+
+                <br>
+
+                <div class="panel-body">
+
+                    <div class="row">
+
+                        <div class="col-xs-3 col-xs-offset-2 text-center">
+
+                            <a href="https://www.facebook.com/robertopreste" class="btn btn-danger btn-lg btn-block">
+                                <span class="glyphicon glyphicon-thumbs-up"></span>&nbsp;
+                                Facebook
+                            </a>
+
+                            <a href="https://www.linkedin.com/in/robertopreste" class="btn btn-danger btn-lg btn-block">
+                                <span class="glyphicon glyphicon-briefcase"></span>&nbsp;
+                                LinkedIn
+                            </a>
+
+                            <a href="https://github.com/robertopreste" class="btn btn-danger btn-lg btn-block">
+                                <span class="glyphicon glyphicon-console"></span>&nbsp;
+                                GitHub
+                            </a>
+
+                        </div>
+
+                        <div class="col-xs-3 col-xs-offset-2">
+
+                            <a href="mailto:roberto.preste@gmail.com" class="btn btn-danger btn-lg btn-block">
+                                <span class="glyphicon glyphicon-envelope"></span>&nbsp;
+                                Send email
+                            </a>
+
+                            <a href="#" download="Preste_Roberto.pdf" class="btn btn-danger btn-lg btn-block disabled">
+                                <span class="glyphicon glyphicon-save-file"></span>&nbsp;
+                                Save resume
+                            </a>
+
+                            <a href="#" class="btn btn-danger btn-lg btn-block disabled">
+                                <span class="glyphicon glyphicon-text-background"></span>&nbsp;
+                                Change colors!
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <br>
+
+            </div>
+
+        </div>
+
+        <br>
+
+        <hr>
+
+        <div class="row">
+
+            <div class="col-xs-4 col-xs-offset-4 text-center">
+
+                <h4><span class="glyphicon glyphicon-copyright-mark"></span>&nbsp; Roberto Preste - 2016</h4>
+
+                <br>
+
+            </div>
+
+        </div>
+
+    </div>
+
+        <!--
+        <div class="row">
+
+            <div class="panel panel-info">
+
+                <div class="panel-heading">
+
+                    <h2 class="text-center">Portfolio</h2>
+
+                </div>
+
+                <div class="panel-body">
+
+                    <div class="col-xs-4">
+
+                        <a class="thumbnail" href="http://bioschemas.org/" target="_blank">
+
+                            <h4 class="text-center">Bioschemas Website</h4>
+                            <img class="img-rounded" src="images/bioschemas_shot.png" alt="Bioschemas">
+
+                        </a>
+
+                    </div>
+
+                    <div class="col-xs-4">
+
+                        <a class="thumbnail" href="http://bioschemas.org/" target="_blank">
+
+                            <h4 class="text-center">Bioschemas Website</h4>
+                            <img class="img-rounded" src="images/bioschemas_shot.png" alt="Bioschemas">
+
+                        </a>
+
+                    </div>
+
+                    <div class="col-xs-4">
+
+                        <a class="thumbnail" href="http://bioschemas.org/" target="_blank">
+
+                            <h4 class="text-center">Bioschemas Website</h4>
+                            <img class="img-rounded" src="images/bioschemas_shot.png" alt="Bioschemas">
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div> -->
+
+</body>
+</html>
