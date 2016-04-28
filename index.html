@@ -9,10 +9,12 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
     <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
 
     <!-- Latest compiled JavaScript -->
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 
     <script src="jquery.fittext.js"></script>
 
@@ -21,8 +23,9 @@
         body {
             background-image: url("images/binding_dark.png");
             background-attachment: fixed;
+            font-size: 16px;
         }
-
+        /*
         h1 {
             color: #e64d00;
             text-shadow: none;
@@ -58,11 +61,101 @@
         
         #navbar_first {
             color: #DC6F37;
-        }
+        }*/
 
         .panel {
             background-image: url("images/black_lozenge.png");
         }
+        /*
+        @media screen and (max-width: 700px) {
+            body {
+                font-size: 14px;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            h2 {
+                font-size: 24px;
+            }
+
+            h3 {
+                font-size: 22px;
+            }
+
+            h4 {
+                font-size: 18px;
+            }
+
+            h5 {
+                font-size: 14px;
+            }
+
+            h6 {
+                font-size: 12px;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            body {
+                font-size: 12px;
+            }
+
+            h1 {
+                font-size: 26px;
+            }
+
+            h2 {
+                font-size: 22px;
+            }
+
+            h3 {
+                font-size: 18px;
+            }
+
+            h4 {
+                font-size: 16px;
+            }
+
+            h5 {
+                font-size: 12px;
+            }
+
+            h6 {
+                font-size: 10px;
+            }
+        }
+
+        @media screen and (max-width: 320px) {
+            body {
+                font-size: 10px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+
+            h3 {
+                font-size: 16px;
+            }
+
+            h4 {
+                font-size: 14px;
+            }
+
+            h5 {
+                font-size: 10px;
+            }
+
+            h6 {
+                font-size: 8px;
+            }
+        }*/
 
     </style>
 
@@ -107,7 +200,6 @@
     <a href="#" id="main-section"></a>
 
     <br>
-
     <hr>
     <br>
 
@@ -115,61 +207,71 @@
 
     <div class="container-fluid">
 
-        <br>
 
-        <!-- Main section with photo and basic information -->
 
-        <div class="row">
+        <!-- Info Section -->
 
-            <div class="col-xs-10 col-xs-offset-1 panel panel-danger">
+        <div class="w3-row">
 
-                <br>
+            <div class="w3-col w3-container" style="width: 5%"></div>
 
-                <div class="panel-heading">
+            <!-- vvv Main Container vvv -->
+            <div class="w3-col w3-container w3-center w3-border w3-round-large w3-padding-xlarge" style="width: 90%">
 
-                    <h2 class="text-center">Info</h2>
+                <!-- vvv Panel vvv -->
+                <div class="w3-row">
 
-                </div>
+                    <div class="w3-col w3-container w3-pale-red w3-round-large w3-margin-top w3-margin-bottom w3-padding-large w3-center">
 
-                <br>
-
-                <div class="panel-body">
-
-                    <div class="row">
-
-                        <div class="col-xs-3 col-xs-offset-2">
-
-                            <br>
-
-                            <img id="profile_pic" class="img-circle img-responsive" src="images/preste_roberto_web.jpg" alt="Roberto Preste">
-
-                        </div>
-
-                        <div class="col-xs-4 col-xs-offset-2">
-
-                            <br>
-
-                            <h1 class="fittext1">Roberto Preste</h1>
-
-                            <h3 class="fittext3">Web Developer at ELIXIR</h3>
-
-                            <h4 class="fittext4">Cambridge, UK</h4>
-
-                            <h3 class="fittext3"><a href="mailto:roberto.preste@gmail.com">roberto.preste@gmail.com</a></h3>
-
-                        </div>
+                        <h2 class="w3-text-deep-orange">Info</h2>
 
                     </div>
 
                 </div>
-
-                <a href="#" id="portfolio-section"></a>
+                <!-- ^^^ Panel ^^^ -->
 
                 <br>
 
+                <!-- vvv Content vvv -->
+                <div class="w3-row">
+
+                    <!-- vvv Left Side vvv -->
+                    <div class="w3-half w3-container w3-center">
+
+                        <img class="w3-circle" src="images/preste_roberto_web.jpg" alt="Roberto Preste">
+
+                    </div>
+                    <!-- ^^^ Left Side ^^^ -->
+
+                    <!-- vvv Right Side vvv -->
+                    <div class="w3-half w3-container w3-center">
+
+                        <h1 class="w3-text-deep-orange">Roberto Preste</h1>
+
+                        <br>
+
+                        <h3 class="w3-text-orange">Web Developer at ELIXIR</h3>
+
+                        <h3 class="w3-text-orange">Cambridge, UK</h3>
+
+                        <br>
+
+                        <h3 class="w3-text-orange"><a href="mailto:roberto.preste@gmail.com">roberto.preste@gmail.com</a></h3>
+
+                    </div>
+                    <!-- ^^^ Right Side ^^^ -->
+
+                </div>
+
             </div>
 
+            <div class="w3-col w3-container" style="width: 5%"></div>
+
         </div>
+
+        <a href="#" id="portfolio-section"></a>
+
+        <br>
 
         <hr>
 
@@ -177,21 +279,31 @@
 
         <!-- Portfolio Section -->
 
-        <div class="row">
+        <div class="w3-row">
 
-            <div class="col-xs-10 col-xs-offset-1 panel panel-danger">
+            <div class="w3-col w3-container" style="width: 5%"></div>
+
+            <!-- vvv Main Container vvv -->
+            <div class="w3-col w3-container w3-center w3-border w3-round-large w3-padding-xlarge" style="width: 90%">
+
+                <!-- vvv Panel vvv -->
+                <div class="w3-row">
+
+                    <div class="w3-col w3-container w3-pale-red w3-round-large w3-margin-top w3-margin-bottom w3-padding-large w3-center">
+
+                        <h2 class="w3-text-deep-orange">Portfolio</h2>
+
+                    </div>
+
+                </div>
+                <!-- ^^^ Panel ^^^ -->
 
                 <br>
 
-                <div class="panel-heading">
+                <!-- vvv Content vvv -->
+                <div class="w3-row">
 
-                    <h2 class="text-center">Portfolio</h2>
-
-                </div>
-
-                <div class="panel-body">
-
-                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <div id="myCarousel" class="carousel slide w3-col w3-container" data-ride="carousel">
 
                         <!-- Indicators -->
                         <ol class="carousel-indicators">
@@ -210,8 +322,8 @@
                                 <a href="http://bioschemas.org/" target="_blank">
                                     <img class="portfolio-img" src="images/bioschemas_crop.png" alt="Bioschemas Website">
                                     <div class="carousel-caption">
-                                        <h3 class="carousel_text fittext3">Bioschemas</h3>
-                                        <h4 class="carousel_text fittext4">A project that aims at expanding schema.org markup to biological objects.</h4>
+                                        <h3 class="carousel_text w3-text-orange">Bioschemas</h3>
+                                        <h4 class="carousel_text w3-text-orange">A project that aims at expanding schema.org markup to biological objects.</h4>
                                     </div>
                                 </a>
 
@@ -222,8 +334,8 @@
                                 <a href="http://github.com/mitoNGS/MToolBox" target="_blank">
                                     <img class="portfolio-img" src="images/mtoolbox_resize.png" alt="MToolBox">
                                     <div class="carousel-caption">
-                                        <h3 class="carousel_text fittext3">MToolBox</h3>
-                                        <h4 class="carousel_text fittext4">A bioinfomatics pipeline providing mitochondrial genome reconstruction from NGS data.</h4>
+                                        <h3 class="carousel_text w3-text-orange">MToolBox</h3>
+                                        <h4 class="carousel_text w3-text-orange">A bioinfomatics pipeline providing mitochondrial genome reconstruction from NGS data.</h4>
                                     </div>
                                 </a>
 
@@ -234,8 +346,8 @@
                                 <a href="#" target="_blank">
                                     <img class="portfolio-img" src="images/browser_resize.png" alt="BROWSer">
                                     <div class="carousel-caption">
-                                        <h3 class="carousel_text fittext3">BROWSer</h3>
-                                        <h4 class="carousel_text fittext4">[Coming soon] A bioinfomatics spin-off from the University of Bari.</h4>
+                                        <h3 class="carousel_text w3-text-orange">BROWSer</h3>
+                                        <h4 class="carousel_text w3-text-orange">[Coming soon] A bioinfomatics spin-off from the University of Bari.</h4>
                                     </div>
                                 </a>
 
@@ -257,72 +369,101 @@
 
                 </div>
 
-                <a href="#" id="contacts-section"></a>
-
-                <br>
-
             </div>
 
+            <div class="w3-col w3-container" style="width: 5%"></div>
+
         </div>
+
+        <br>
 
         <hr>
 
         <br>
 
-        <!-- Contacts -->
+        <!-- Contacts Section -->
 
-        <div class="row">
+        <div class="w3-row">
 
-            <div class="col-xs-10 col-xs-offset-1 panel panel-danger">
+            <div class="w3-col w3-container" style="width: 5%"></div>
 
-                <br>
+            <!-- vvv Main Container vvv -->
+            <div class="w3-col w3-container w3-center w3-border w3-round-large w3-padding-xlarge" style="width: 90%">
 
-                <div class="panel-heading">
+                <!-- vvv Panel vvv -->
+                <div class="w3-row">
 
-                    <h2 class="text-center">Contacts</h2>
+                    <div class="w3-col w3-container w3-pale-red w3-round-large w3-margin-top w3-margin-bottom w3-padding-large w3-center">
+
+                        <h2 class="w3-text-deep-orange">Contacts</h2>
+
+                    </div>
 
                 </div>
+                <!-- ^^^ Panel ^^^ -->
 
                 <br>
 
-                <br>
+                <!-- vvv Content vvv -->
+                <div class="w3-row">
 
-                <div class="panel-body">
+                    <!-- vvv Left Side vvv -->
+                    <div class="w3-half w3-container w3-center">
 
-                    <div class="row">
+                        <div class="w3-container w3-margin">
 
-                        <div class="col-xs-3 col-xs-offset-2 text-center">
-
-                            <a href="https://www.facebook.com/robertopreste" class="btn btn-danger btn-lg btn-block">
+                            <a href="https://www.facebook.com/robertopreste" class=" w3-btn w3-btn-block w3-xlarge w3-round-large w3-orange w3-border w3-border-deep-orange w3-text-white w3-hover-red">
                                 <span class="glyphicon glyphicon-thumbs-up"></span>&nbsp;
                                 Facebook
                             </a>
 
-                            <a href="https://www.linkedin.com/in/robertopreste" class="btn btn-danger btn-lg btn-block">
+                        </div>
+
+                        <div class="w3-container w3-margin">
+
+                            <a href="https://www.linkedin.com/in/robertopreste" class="w3-btn w3-btn-block w3-xlarge w3-round-large w3-orange w3-border w3-border-deep-orange w3-text-white w3-hover-red">
                                 <span class="glyphicon glyphicon-briefcase"></span>&nbsp;
                                 LinkedIn
                             </a>
 
-                            <a href="https://github.com/robertopreste" class="btn btn-danger btn-lg btn-block">
+                        </div>
+
+                        <div class="w3-container w3-margin">
+
+                            <a href="https://github.com/robertopreste" class="w3-btn w3-btn-block w3-xlarge w3-round-large w3-orange w3-border w3-border-deep-orange w3-text-white w3-hover-red">
                                 <span class="glyphicon glyphicon-console"></span>&nbsp;
                                 GitHub
                             </a>
 
                         </div>
 
-                        <div class="col-xs-3 col-xs-offset-2">
+                    </div>
+                    <!-- ^^^ Left Side ^^^ -->
 
-                            <a href="mailto:roberto.preste@gmail.com" class="btn btn-danger btn-lg btn-block">
+                    <!-- vvv Right Side vvv -->
+                    <div class="w3-half w3-container w3-center">
+
+                        <div class="w3-container w3-margin">
+
+                            <a href="mailto:roberto.preste@gmail.com" class="w3-btn w3-btn-block w3-xlarge w3-round-large w3-orange w3-border w3-border-deep-orange w3-text-white w3-hover-red">
                                 <span class="glyphicon glyphicon-envelope"></span>&nbsp;
                                 Send email
                             </a>
 
-                            <a href="#" download="Preste_Roberto.pdf" class="btn btn-danger btn-lg btn-block disabled">
+                        </div>
+
+                        <div class="w3-container w3-margin">
+
+                            <a href="#" download="Preste_Roberto.pdf" class="w3-btn w3-btn-block w3-xlarge w3-round-large w3-orange w3-border w3-border-deep-orange w3-text-white w3-hover-red w3-disabled">
                                 <span class="glyphicon glyphicon-save-file"></span>&nbsp;
                                 Save resume
                             </a>
 
-                            <a href="#" class="btn btn-danger btn-lg btn-block disabled">
+                        </div>
+
+                        <div class="w3-container w3-margin">
+
+                            <a href="#" class="w3-btn w3-btn-block w3-xlarge w3-round-large w3-orange w3-border w3-border-deep-orange w3-text-white w3-hover-red w3-disabled">
                                 <span class="glyphicon glyphicon-text-background"></span>&nbsp;
                                 Change colors!
                             </a>
@@ -330,12 +471,17 @@
                         </div>
 
                     </div>
+                    <!-- ^^^ Right Side ^^^ -->
+
 
                 </div>
+                <!-- ^^^ Content ^^^ -->
 
-                <br>
 
             </div>
+            <!-- ^^^ Main Container ^^^ -->
+
+            <div class="w3-col w3-container" style="width: 5%;"></div>
 
         </div>
 
@@ -343,27 +489,16 @@
 
         <hr>
 
-        <div class="row">
+        <div class="w3-container w3-center">
 
-            <div class="col-xs-4 col-xs-offset-4 text-center">
-
-                <h4><span class="glyphicon glyphicon-copyright-mark"></span>&nbsp; Roberto Preste - 2016</h4>
-
-                <br>
-
-            </div>
+            <h4 class="w3-text-orange"><span class="glyphicon glyphicon-copyright-mark"></span>&nbsp; 2016</h4>
+            <h4 class="w3-text-orange">Roberto Preste</h4>
 
         </div>
 
     </div>
 
-    <script type="text/javascript">
-
-        $(".fittext1").fitText(0.9);
-        $(".fittext3").fitText(0.9);
-        $(".fittext4").fitText(0.9);
-
-    </script>
+    <!-- w3-hide-small -->
 
 </body>
 </html>
