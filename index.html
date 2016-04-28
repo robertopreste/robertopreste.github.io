@@ -14,6 +14,8 @@
     <!-- Latest compiled JavaScript -->
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
+    <script src="jquery.fittext.js"></script>
+
     <style>
 
         body {
@@ -147,13 +149,13 @@
 
                             <br>
 
-                            <h1>Roberto Preste</h1>
+                            <h1 class="fittext1">Roberto Preste</h1>
 
-                            <h3>Web Developer at ELIXIR</h3>
+                            <h3 class="fittext3">Web Developer at ELIXIR</h3>
 
-                            <h4>Cambridge, UK</h4>
+                            <h4 class="fittext4">Cambridge, UK</h4>
 
-                            <h3><a href="mailto:roberto.preste@gmail.com">roberto.preste@gmail.com</a></h3>
+                            <h3 class="fittext3"><a href="mailto:roberto.preste@gmail.com">roberto.preste@gmail.com</a></h3>
 
                         </div>
 
@@ -208,8 +210,8 @@
                                 <a href="http://bioschemas.org/" target="_blank">
                                     <img class="portfolio-img" src="images/bioschemas_crop.png" alt="Bioschemas Website">
                                     <div class="carousel-caption">
-                                        <h3 class="carousel_text">Bioschemas</h3>
-                                        <h4 class="carousel_text">A project that aims at expanding schema.org markup to biological objects.</h4>
+                                        <h3 class="carousel_text fittext3">Bioschemas</h3>
+                                        <h4 class="carousel_text fittext4">A project that aims at expanding schema.org markup to biological objects.</h4>
                                     </div>
                                 </a>
 
@@ -220,8 +222,8 @@
                                 <a href="http://github.com/mitoNGS/MToolBox" target="_blank">
                                     <img class="portfolio-img" src="images/mtoolbox_resize.png" alt="MToolBox">
                                     <div class="carousel-caption">
-                                        <h3 class="carousel_text">MToolBox</h3>
-                                        <h4 class="carousel_text">A bioinfomatics pipeline providing mitochondrial genome reconstruction from NGS data.</h4>
+                                        <h3 class="carousel_text fittext3">MToolBox</h3>
+                                        <h4 class="carousel_text fittext4">A bioinfomatics pipeline providing mitochondrial genome reconstruction from NGS data.</h4>
                                     </div>
                                 </a>
 
@@ -232,8 +234,8 @@
                                 <a href="#" target="_blank">
                                     <img class="portfolio-img" src="images/browser_resize.png" alt="BROWSer">
                                     <div class="carousel-caption">
-                                        <h3 class="carousel_text">BROWSer</h3>
-                                        <h4 class="carousel_text">[Coming soon] A bioinfomatics spin-off from the University of Bari.</h4>
+                                        <h3 class="carousel_text fittext3">BROWSer</h3>
+                                        <h4 class="carousel_text fittext4">[Coming soon] A bioinfomatics spin-off from the University of Bari.</h4>
                                     </div>
                                 </a>
 
@@ -355,57 +357,13 @@
 
     </div>
 
-        <!--
-        <div class="row">
+    <script type="text/javascript">
 
-            <div class="panel panel-info">
+        $(".fittext1").fitText(0.9);
+        $(".fittext3").fitText(0.9);
+        $(".fittext4").fitText(0.9);
 
-                <div class="panel-heading">
-
-                    <h2 class="text-center">Portfolio</h2>
-
-                </div>
-
-                <div class="panel-body">
-
-                    <div class="col-xs-4">
-
-                        <a class="thumbnail" href="http://bioschemas.org/" target="_blank">
-
-                            <h4 class="text-center">Bioschemas Website</h4>
-                            <img class="img-rounded" src="images/bioschemas_shot.png" alt="Bioschemas">
-
-                        </a>
-
-                    </div>
-
-                    <div class="col-xs-4">
-
-                        <a class="thumbnail" href="http://bioschemas.org/" target="_blank">
-
-                            <h4 class="text-center">Bioschemas Website</h4>
-                            <img class="img-rounded" src="images/bioschemas_shot.png" alt="Bioschemas">
-
-                        </a>
-
-                    </div>
-
-                    <div class="col-xs-4">
-
-                        <a class="thumbnail" href="http://bioschemas.org/" target="_blank">
-
-                            <h4 class="text-center">Bioschemas Website</h4>
-                            <img class="img-rounded" src="images/bioschemas_shot.png" alt="Bioschemas">
-
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div> -->
+    </script>
 
 </body>
 </html>
