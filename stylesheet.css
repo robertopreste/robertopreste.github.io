@@ -5,7 +5,13 @@ body {
 }
 
 hr {
+    color: #dddddd;
+    background-color: #dddddd;
     width: 93%;
+    height: 1px;
+    text-align: center;
+    margin: 1em auto;
+    border: none;
 }
 
 .pannello {
