@@ -3,3 +3,12 @@ body {
     background-attachment: fixed;
     font-size: 16px;
 }
+
+.pannello {
+    background-image: url("images/black_lozenge.png");
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #e64d00;
+}
