@@ -14,6 +14,10 @@ hr {
     border: none;
 }
 
+.carousel_text {
+    text-shadow: none;
+}
+
 .pannello {
     background-image: url("images/black_lozenge.png");
 }
