@@ -4,6 +4,10 @@ body {
     font-size: 16px;
 }
 
+hr {
+    width: 93%;
+}
+
 .pannello {
     background-image: url("images/black_lozenge.png");
 }
