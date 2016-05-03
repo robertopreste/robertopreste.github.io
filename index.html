@@ -84,7 +84,7 @@
 
     <!-- Main container -->
 
-    <div class="w3-container w3-center">
+    <div class="w3-container w3-center" itemscope itemtype="http://schema.org/Person">
 
 
         <!-- Info Section -->
@@ -116,7 +116,7 @@
                     <!-- vvv Left Side vvv -->
                     <div class="w3-half w3-container w3-center">
 
-                        <img class="w3-circle" src="images/preste_roberto_web.jpg" alt="Roberto Preste">
+                        <img class="w3-circle" src="images/preste_roberto_web.jpg" alt="Roberto Preste" itemprop="image">
 
                     </div>
                     <!-- ^^^ Left Side ^^^ -->
@@ -124,17 +124,17 @@
                     <!-- vvv Right Side vvv -->
                     <div class="w3-half w3-container w3-center">
 
-                        <h1 class="w3-text-deep-orange">Roberto Preste</h1>
+                        <h1 class="w3-text-deep-orange" itemprop="name">Roberto Preste</h1>
 
                         <br>
 
-                        <h3 class="w3-text-orange">Web Developer at ELIXIR</h3>
+                        <h3 class="w3-text-orange"><span itemprop="jobTitle">Web Developer</span> at <span itemprop="affiliation">ELIXIR</span></h3>
 
                         <h3 class="w3-text-orange">Cambridge, UK</h3>
 
                         <br>
 
-                        <h3 class="w3-text-orange"><a href="mailto:roberto.preste@gmail.com">roberto.preste@gmail.com</a></h3>
+                        <h3 class="w3-text-orange"><a href="mailto:roberto.preste@gmail.com" itemprop="email">roberto.preste@gmail.com</a></h3>
 
                     </div>
                     <!-- ^^^ Right Side ^^^ -->
@@ -373,6 +373,7 @@
 
         <hr>
 
+        <!-- Footer -->
         <div class="w3-container w3-center">
 
             <h4 class="w3-text-orange"><span class="glyphicon glyphicon-copyright-mark"></span>&nbsp; 2016</h4>
