@@ -1,12 +1,9 @@
 body {
-    background-image: url("images/binding_dark.png");
     background-attachment: fixed;
     font-size: 16px;
 }
 
 hr {
-    color: #dddddd;
-    background-color: #dddddd;
     width: 93%;
     height: 1px;
     text-align: center;
@@ -14,15 +11,37 @@ hr {
     border: none;
 }
 
-.carousel_text {
-    text-shadow: none;
+.class_hr {
+    color: #dddddd;
+    background-color: #dddddd;
+}
+
+.class_body {
+    background-image: url("images/binding_dark.png");
 }
 
 .pannello {
     background-image: url("images/black_lozenge.png");
 }
 
+.carousel_text {
+    text-shadow: none;
+}
+
 a:hover {
     text-decoration: underline;
     color: #e64d00;
+}
+
+.switch_class_body {
+    background-image: url("images/concrete_seamless.png");
+}
+
+.switch_class_pann {
+    background-image: url("images/seamless_paper_texture.png");
+}
+
+.switch_class_hr {
+    color: #333333;
+    background-color: #333333;
 }
