@@ -123,7 +123,7 @@ div.hide {
     margin: -1.25rem;
     background: currentColor;
     border-radius: 50%;
-    box-shadow: 0 0 0 0.375rem #fff;
+    box-shadow: 0 0 0 0.375rem #FF8C00;
     -webkit-animation: spin 12s infinite linear;
     animation: spin 12s infinite linear;
 }
@@ -136,9 +136,9 @@ div.hide {
     width: 0.375rem;
     height: 1.125rem;
     margin-left: -0.1875rem;
-    background: #fff;
+    background: #FF8C00;
     border-radius: 0.25rem;
-    box-shadow: 0 5.375rem #fff;
+    box-shadow: 0 5.375rem #FF8C00;
 }
 
 .rays:before,
@@ -156,9 +156,9 @@ div.hide {
     -webkit-transform-origin: 50% 3.25rem;
     -ms-transform-origin: 50% 3.25rem;
     transform-origin: 50% 3.25rem;
-    background: #fff;
+    background: #FF8C00;
     border-radius: 0.25rem;
-    box-shadow: 0 5.375rem #fff;
+    box-shadow: 0 5.375rem #FF8C00;
 }
 
 .rays:before {
