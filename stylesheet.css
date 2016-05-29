@@ -12,8 +12,8 @@ hr {
 }
 
 .class_hr {
-    color: #dddddd;
-    background-color: #dddddd;
+    color: rgb(255,152,0);
+    background-color: rgb(255,152,0);
 }
 
 .class_body {
@@ -42,8 +42,8 @@ a:hover {
 }
 
 .switch_class_hr {
-    color: #333333;
-    background-color: #333333;
+    color: rgb(0,150,136);
+    background-color: rgb(0,150,136);
 }
 
 /* Weather */
