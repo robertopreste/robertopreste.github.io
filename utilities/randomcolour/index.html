@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Random Colour</title>
+
+    <!-- W3.CSS -->
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="stylesheet.css">
+
+</head>
+<body>
+    <div class="w3-container">
+        <div class="w3-row">
+            <div class="w3-col" style="width: 40%"></div>
+
+            <div class="w3-col w3-center">
+                <br><br><br>
+                <button class="w3-btn w3-teal w3-xlarge w3-round-medium w3-border w3-border-white w3-text-shadow" onclick="createColor()">Randomize!</button>
+            </div>
+
+            <div class="w3-col" style="width: 40%"></div>
+
+        </div>
+
+        <br>
+
+        <div class="w3-row">
+            <div class="w3-col s4">&nbsp;</div>
+
+            <div class="w3-col s4 w3-center">
+                <div id="content" class="hide w3-card-8 w3-margin w3-border w3-border-white w3-bottombar w3-leftbar w3-topbar w3-rightbar w3-round-xlarge">
+                    <h2 class="values w3-text-shadow">RGB:</h2>
+                    <h3 class="values" id="rgbVal"></h3>
+                    <h2 class="values w3-text-shadow">Hex:</h2>
+                    <h3 class="values" id="hexVal"></h3>
+                </div>
+
+            </div>
+
+            <div class="w3-col s4">&nbsp;</div>
+        </div>
+
+        <div class="w3-row w3-xlarge w3-padding-xxlarge" id="footer">
+            <div class="w3-col s1 w3-left w3-text-shadow">
+                <a href="#" title="Show Details" onclick="showContent()">Details</a>
+            </div>
+
+            <div class="w3-col s10">&nbsp;</div>
+
+            <div class="w3-col s1 w3-right w3-text-shadow">
+                <a href="http://www.robertopreste.com" title="Made by Roberto Preste" target="_blank">About</a>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>
