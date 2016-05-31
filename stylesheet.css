@@ -174,20 +174,19 @@ div.hide {
 .rain,
 .lightning,
 .snow {
-    position: absolute;
+    position: relative;
     z-index: 2;
     top: 50%;
     left: 50%;
     width: 3.75rem;
     height: 3.75rem;
     margin: 0.375rem 0 0 -2rem;
-    background: currentColor;
 }
 
 .rain:after {
     content: '';
     position: absolute;
-    z-index: 2;
+    z-index: 0;
     top: 50%;
     left: 50%;
     width: 1.125rem;
