@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<article id="main">
+
+    <header>
+        <h2>{{ page.title }}</h2>
+        <p>{{ page.description }}</p>
+    </header>
+
+    <section class="wrapper alt2 style5">
+        <div class="inner">
+            {{ content }}
+        </div>
+    </section>
+
+</article>
+
+<section class="wrapper alt style2">
+
+    {% for post in site.posts %}
+    {% for cat in post.categories %}
+    {% if cat == page.category %}
+
+    <section class="spotlight">
+        <div class="image">
+            <a href="{{site.url}}{{site.baseurl}}{{post.url}}" title="{{post.title}}">
+                <img src="{{ post.image }}" alt="{{ post.title }}">
+            </a>
+        </div>
+        <div class="content">
+            <h2><a class='postLink' href="{{site.url}}{{site.baseurl}}{{post.url}}">{{post.title}}</a></h2>
+            <p>{{ post.excerpt }}</p>
+        </div>
+    </section>
+
+    {% endif %}
+    {% endfor %}
+    {% endfor %}
+
+</section>
