@@ -1,12 +1,10 @@
 ---
 layout: post
 title: Linux Terminal Commands
-permalink: /webdev/linux-terminal-commands
+permalink: /blog/linux-terminal-commands
 category: blog
 tags: 
- - linux
- - bash
- - terminal
+ - informatics
 image: 
  - /images/linux4.png
 ---
