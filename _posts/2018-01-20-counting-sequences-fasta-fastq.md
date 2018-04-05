@@ -13,8 +13,6 @@ description: "A couple of bioinformatics shortcuts to use Shell commands to coun
 
 A well-established bioinformatician usually has a handful of appropriate informatics tools to manipulate and analyse genomic data, for example counting sequences in a file. Nonetheless, in some cases it may be useful to rely on standard Unix commands, for example when your trusty laptop is not available or you’re working on someone else’s machine.  
 
-![Fastq File](/images/fastq.jpg)  
-
 ## Fasta Files  
 
 A [.fasta file](https://en.wikipedia.org/wiki/FASTA_format) is a simple plain text file in which every sequence is represented by a header line, beginning with `>` and containing the sequence identifier and details, followed by a number of lines containing the actual sequence:  

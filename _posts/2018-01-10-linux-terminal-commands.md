@@ -13,8 +13,6 @@ description: "A list of some useful shortcuts and commands for the Unix terminal
 
 I often find myself looking for some shortcuts for working on the terminal with bioinformatics data, so here is a list of the most useful shortcuts and commands for the Unix terminal.  
 
-![Terminal Screen](/images/linux4.png)
-
 ## File system  
 
 `ls`  –  list items in the current directory  

@@ -13,8 +13,6 @@ description: "How to interpret base calling qualities in Next Generation Sequenc
 
 Next Generation Sequencing techniques have brought new insights into -omics data analysis, mostly thanks to their reliability in detecting biological variants. This reliability is usually measured using a quality score named Phred (or Q score).  
 
-![Phred Quality Score](/images/phreds.png)  
-
 The Phred score of a base is an integer value that represents the estimated probability of an error in base calling. Mathematically, a Q score is logarithmically related to the base-calling error probabilities P, and can be calculated using the following formula:  
 
 ```
