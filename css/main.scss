@@ -1478,6 +1478,23 @@ body.is-menu-visible {
     }
 }
 
+.PageNavigation {
+    font-size: 0.8em;
+    width: auto;
+    overflow: hidden;
+}
+
+.PageNavigation .next {
+    text-align: right;
+    float: right;
+}
+
+.PageNavigation .prev {
+    text-align: left;
+    float: left;
+}
+
+
 /* Banner */
 
 #banner {
