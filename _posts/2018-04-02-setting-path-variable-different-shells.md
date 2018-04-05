@@ -7,15 +7,12 @@ tags:
  - informatics
 image: 
  - /images/path_variable.jpg
+description: "How to set the PATH variable in Bash and TCSH shells."
 ---
 
-How to set the PATH variable in Bash and TCSH shells.  
-
-<!--more-->  
+The Linux PATH is an environmental variable that contains all the directories that the shell will search for executable files, when a user issues a command. It can be modified temporarily or permanently in order to include specific software, so that having to type the whole path of that software won’t be needed anymore. Setting the PATH variable can also be useful if a user wants to use a different version of a software already included in the PATH.  
 
 ![Path Variable](/images/path_variable.jpg)  
-
-The Linux PATH is an environmental variable that contains all the directories that the shell will search for executable files, when a user issues a command. It can be modified temporarily or permanently in order to include specific software, so that having to type the whole path of that software won’t be needed anymore. Setting the PATH variable can also be useful if a user wants to use a different version of a software already included in the PATH.  
 
 Since I often use different types of shells to do my job, I decided to highlight how to change the PATH variable in a set of shell flavours ([Bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell))/Sh/Ksh, [TCSH](https://en.wikipedia.org/wiki/Tcsh)/CSH).  
 

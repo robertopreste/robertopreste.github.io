@@ -7,11 +7,8 @@ tags:
  - bioinformatics
 image: 
  - /images/phreds.png
+description: "How to interpret base calling qualities in Next Generation Sequencing data."
 ---
-
-How to interpret base calling qualities in Next Generation Sequencing data.  
-
-<!--more-->
 
 Next Generation Sequencing techniques have brought new insights into -omics data analysis, mostly thanks to their reliability in detecting biological variants. This reliability is usually measured using a quality score named Phred (or Q score).  
 
