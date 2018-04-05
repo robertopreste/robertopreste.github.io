@@ -3,6 +3,7 @@ layout: post
 title: Phred Quality Score
 permalink: /blog/phred-quality-score
 category: blog
+comments: true
 tags: 
  - bioinformatics
 image: 

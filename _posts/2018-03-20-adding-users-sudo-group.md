@@ -3,6 +3,7 @@ layout: post
 title: Adding Users to the Sudo Group
 permalink: /blog/adding-users-sudo-group
 category: blog
+comments: true
 tags: 
  - informatics
 image: 

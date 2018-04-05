@@ -3,6 +3,7 @@ layout: post
 title: Counting Sequences in Fasta/Fastq Files
 permalink: /blog/counting-sequences-fastq
 category: blog
+comments: true
 tags: 
  - bioinformatics
 image: 

@@ -3,6 +3,7 @@ layout: post
 title: Setting PATH Variable in Different Shells
 permalink: /blog/setting-path-variable-different-shells
 category: blog
+comments: true
 tags: 
  - informatics
 image: 

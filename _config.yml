@@ -54,3 +54,7 @@ social:
 markdown: kramdown
 #sass:
 #  style: compressed
+
+# Disqus comments
+disqus:
+  shortname: robertopreste

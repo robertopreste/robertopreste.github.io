@@ -3,6 +3,7 @@ layout: post
 title: Linux Terminal Commands
 permalink: /blog/linux-terminal-commands
 category: blog
+comments: true
 tags: 
  - informatics
 image: 
