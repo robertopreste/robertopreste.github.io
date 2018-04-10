@@ -24,16 +24,40 @@ layout: default
     {% if cat == page.category %}
 
     <section class="spotlight">
-        <div class="image">
-            <a href="{{site.url}}{{site.baseurl}}{{post.url}}" title="{{post.title}}">
-                <img src="{{ post.image }}" alt="{{ post.title }}">
-            </a>
-        </div>
-        <div class="content">
-            <h2><a class='postLink' href="{{site.url}}{{site.baseurl}}{{post.url}}">{{post.title}}</a></h2>
-            <!--<p>{{ post.excerpt }}</p>-->
-            <p>{{ post.description }}</p>
-        </div>
+
+        {% if page.category == "webdev" %}
+
+            <div class="image">
+                <a href="{{post.linkto}}" title="{{post.title}}" target="_blank">
+                    <img src="{{ post.image }}" alt="{{ post.title }}">
+                </a>
+            </div>
+
+            <!--todo: increase image size for this category archive-->
+
+            <div class="content">
+                <h2><a class='postLink' href="{{post.linkto}}" target="_blank" title="{{post.title}}">{{post.title}}</a></h2>
+                <!--<p>{{ post.excerpt }}</p>-->
+                <p>{{ post.description }}</p>
+                <p>{{ post.techs }}</p>
+            </div>
+
+        {% else %}
+
+            <div class="image">
+                <a href="{{site.url}}{{site.baseurl}}{{post.url}}" title="{{post.title}}">
+                    <img src="{{ post.image }}" alt="{{ post.title }}">
+                </a>
+            </div>
+
+            <div class="content">
+                <h2><a class='postLink' href="{{site.url}}{{site.baseurl}}{{post.url}}" title="{{post.title}}">{{post.title}}</a></h2>
+                <!--<p>{{ post.excerpt }}</p>-->
+                <p>{{ post.description }}</p>
+            </div>
+
+        {% endif %}
+
     </section>
 
     {% endif %}
