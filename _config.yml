@@ -72,3 +72,4 @@ disqus:
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
