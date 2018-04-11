@@ -15,4 +15,9 @@
     {% endif %}
 
     {% seo %}
+
+    <!--Custom SEO-->
+    <meta name="twitter:image" content="{{ page.image | prepend: site.baseurl | prepend: site.url }}">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 </head>
