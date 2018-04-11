@@ -58,3 +58,6 @@ markdown: kramdown
 # Disqus comments
 disqus:
   shortname: robertopreste
+
+# Google Analytics
+google_analytics: UA-111558547-1
