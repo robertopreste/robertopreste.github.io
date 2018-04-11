@@ -6,8 +6,7 @@ category: blog
 comments: true
 tags: 
  - informatics
-image: 
- - /images/linux4.png
+image: /images/linux4.png
 description: "A list of some useful shortcuts and commands for the Unix terminal."
 ---
 

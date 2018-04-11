@@ -50,6 +50,15 @@ social:
   #tripadvisor:
   #amazon:
 
+author: robertopreste
+twitter:
+  username: robertopreste
+facebook:
+  admins: robertopreste
+logo: /images/favicon.png
+google_site_verification: UA-111558547-1
+lang: en_GB
+
 # Build settings
 markdown: kramdown
 #sass:
@@ -59,5 +68,7 @@ markdown: kramdown
 disqus:
   shortname: robertopreste
 
-# Google Analytics
-google_analytics: UA-111558547-1
+# Plugins
+
+plugins:
+  - jekyll-seo-tag

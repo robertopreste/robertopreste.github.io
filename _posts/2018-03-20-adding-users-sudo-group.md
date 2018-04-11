@@ -6,8 +6,7 @@ category: blog
 comments: true
 tags: 
  - informatics
-image: 
- - /images/linux-add-user.jpg
+image: /images/linux-add-user.jpg
 description: "Allow users to perform administrator tasks even if they are not system admins."
 ---
 
