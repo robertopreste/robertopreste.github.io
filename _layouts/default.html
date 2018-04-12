@@ -13,6 +13,12 @@
 
     {{ content }}
 
+    {% include share.html %}
+
+    {% if page.comments %}
+        {% include disqus.html %}
+    {% endif %}
+
     {% include footer.html %}
 
     {% include scripts.html %}
