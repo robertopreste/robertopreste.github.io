@@ -76,4 +76,3 @@ export PATH=/folder/to/add
 ```  
 
 will overwrite the existing PATH, and you will lose all the other paths stored in it!  
-

@@ -114,5 +114,3 @@ I often find myself looking for some shortcuts for working on the terminal with 
 `find [file] ` –  find all instances of `[file]`  
 `locate [file] ` –  find all instances of `[file]` using an indexed database built from the updatedb command (faster than find)  
 `sed -i 's/[day]/[night]/g' [file] ` –  find all occurrences of `[day]` in `[file]` and replace them with `[night]`; `s` represents substitution and `g` means global  
-
-

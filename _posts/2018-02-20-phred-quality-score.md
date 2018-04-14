@@ -265,4 +265,3 @@ print ord("<ASCII>")-33
 ```  
 
 In both cases, just replace `<ASCII>` with the actual ASCII character and that will do the trick.  
-

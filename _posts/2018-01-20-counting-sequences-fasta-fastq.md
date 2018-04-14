@@ -68,4 +68,3 @@ On modern shells, such as Bash, this can be done with a simple one-liner:
 ```
 expr $(cat file.fastq | wc -l) / 4
 ```  
-

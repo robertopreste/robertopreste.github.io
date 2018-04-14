@@ -41,4 +41,3 @@ usermod -aG sudo [username]
 This command will add the user `[username]` to the sudo group, and that’s it.  
 
 From now on, the `[username]` user will be able to access administrator privileges just by prepending `sudo` to any command, and providing his own password.  
-
