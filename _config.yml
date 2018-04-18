@@ -8,7 +8,7 @@ owner: Roberto Preste # or company name
 first_published: 2018 # if migrating another site, the year of your first publish
 email: roberto.preste@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://robertopreste.com" # the base hostname & protocol for your site
+url: "https://robertopreste.com" # the base hostname & protocol for your site
 social:
   twitter: https://twitter.com/robertopreste
   github: https://github.com/robertopreste
@@ -50,11 +50,6 @@ social:
   #tripadvisor:
   #amazon:
 
-author: robertopreste
-twitter:
-  username: robertopreste
-facebook:
-  admins: robertopreste
 logo: /images/favicon.png
 google_site_verification: UA-111558547-1
 lang: en_GB
@@ -71,5 +66,4 @@ disqus:
 # Plugins
 
 plugins:
-  - jekyll-seo-tag
   - jekyll-sitemap
