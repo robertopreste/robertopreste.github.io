@@ -42,7 +42,7 @@
             "url": "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}",
             "publisher": {"@type": "Person",
                           "image": {"@type": "ImageObject",
-                                    "url": "http://localhost:4000/images/favicon.png"},
+                                    "url": "{{ site.logo | prepend: site.baseurl | prepend: site.url }}"},
                           "name": "{{ site.owner }}"},
             "image": "{% if page.image %}{{ page.image | prepend: site.baseurl | prepend: site.url }}{% else %}{{ site.logo | prepend: site.baseurl | prepend: site.url }}{% endif %}",
             "headline": "{% if page.title %}{{ page.title }}{% else %}{{ site.title | escape }}{% endif %}"
