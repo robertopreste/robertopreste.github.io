@@ -6,6 +6,8 @@ category: blog
 comments: true
 tags: 
  - informatics
+ - python
+ - string
 image: /images/python.jpg
 description: "Different methods to perform string formatting operations in Python."
 ---

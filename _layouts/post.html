@@ -9,7 +9,10 @@ layout: default
         {% if page.tags %}
             <p>|
                 {% for tag in page.tags %}
-                {{ tag }} |
+                    {% if page.category == "blog" or page.category == "webdev" %}
+                        <a href="{{site.url}}{{site.baseurl}}/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a> |
+
+                    {% endif %}
                 {% endfor %}
             </p>
         {% endif %}

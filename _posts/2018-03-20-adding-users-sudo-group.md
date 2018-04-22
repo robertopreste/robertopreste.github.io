@@ -6,6 +6,10 @@ category: blog
 comments: true
 tags: 
  - informatics
+ - sudo
+ - shell
+ - bash
+ - user
 image: /images/linux-add-user.jpg
 description: "Allow users to perform administrator tasks even if they are not system admins."
 ---

@@ -6,6 +6,9 @@ category: blog
 comments: true
 tags: 
  - bioinformatics
+ - phred
+ - fastq
+ - python
 image: /images/phreds.png
 description: "How to interpret base calling qualities in Next Generation Sequencing data."
 ---

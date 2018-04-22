@@ -6,6 +6,10 @@ category: blog
 comments: true
 tags: 
  - bioinformatics
+ - fasta
+ - fastq
+ - shell
+ - bash
 image: /images/fastq.jpg
 description: "A couple of bioinformatics shortcuts to use Shell commands to count the number of sequences found in fasta and fastq file formats."
 ---

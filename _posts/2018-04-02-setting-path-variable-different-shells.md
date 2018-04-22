@@ -6,6 +6,10 @@ category: blog
 comments: true
 tags: 
  - informatics
+ - path
+ - shell
+ - bash
+ - tcsh
 image: /images/path_variable.jpg
 description: "How to set the PATH variable in Bash and TCSH shells."
 ---
