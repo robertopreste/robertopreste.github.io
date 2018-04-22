@@ -7,14 +7,13 @@ layout: default
     <header>
         <h2>{{ page.title }}</h2>
         {% if page.tags %}
-            <p>|
-                {% for tag in page.tags %}
-                    {% if page.category == "blog" or page.category == "webdev" %}
+            {% if page.category == "blog" or page.category == "webdev" %}
+                <p>|
+                    {% for tag in page.tags %}
                         <a href="{{site.url}}{{site.baseurl}}/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a> |
-
-                    {% endif %}
-                {% endfor %}
-            </p>
+                    {% endfor %}
+                </p>
+            {% endif %}
         {% endif %}
 
         {% if page.category == "blog" %}
