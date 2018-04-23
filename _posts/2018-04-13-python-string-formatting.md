@@ -11,8 +11,10 @@ tags:
 image: /images/python.jpg
 description: "Different methods to perform string formatting operations in Python."
 ---
+![Python Logo](/images/python.jpg){: .post_left_img}
+When there's a need for concatenating a Python string with some variables, there are actually several ways to achieve the same results.  
 
-When there's a need for concatenating a Python string with some variables, there are actually several ways to achieve the same results. Some of them are quite basic, others are less recommended, but all of them are equally efficient for string formatting purposes.  
+Some of them are quite basic, others are less recommended, but all of them are equally efficient for string formatting purposes.  
 
 ## The basic way  
 

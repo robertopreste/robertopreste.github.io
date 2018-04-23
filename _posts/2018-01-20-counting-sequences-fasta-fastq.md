@@ -13,8 +13,10 @@ tags:
 image: /images/fastq.jpg
 description: "A couple of bioinformatics shortcuts to use Shell commands to count the number of sequences found in fasta and fastq file formats."
 ---
+![Fastq Sequence](/images/fastq.jpg){: .post_left_img}
+A well-established bioinformatician usually has a handful of appropriate informatics tools to manipulate and analyse genomic data, for example counting sequences in a file.  
 
-A well-established bioinformatician usually has a handful of appropriate informatics tools to manipulate and analyse genomic data, for example counting sequences in a file. Nonetheless, in some cases it may be useful to rely on standard Unix commands, for example when your trusty laptop is not available or you’re working on someone else’s machine.  
+Nonetheless, in some cases it may be useful to rely on standard Unix commands, for example when your trusty laptop is not available or you’re working on someone else’s machine.  
 
 ## Fasta Files  
 

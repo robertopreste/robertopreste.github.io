@@ -13,8 +13,9 @@ tags:
 image: /images/linux-add-user.jpg
 description: "Allow users to perform administrator tasks even if they are not system admins."
 ---
-
 One of the most important things to do after setting up a new Linux server (or after taking over an existing one) is to create a new user, possibly with *sudo powers*. [Sudo](https://en.wikipedia.org/wiki/Sudo) is a special Linux command that allows users to perform administrator tasks even if they are not system admins.  
+
+![Sudo Users](/images/linux-add-user.jpg){: .post_left_img}
 
 The main reason for having a sudo user (or *sudoer*) is because logging in as root is usually not desirable, since it can cause troubles more often than not, but we may still want to be able to perform administrator tasks with a non-root user. Moreover, adding one or more users to the sudo group can avoid the need of spreading root credentials, because a sudo command will require the user’s own password, not the root’s one.  
 
