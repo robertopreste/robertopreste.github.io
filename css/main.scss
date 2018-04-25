@@ -67,12 +67,14 @@ body, input, select, textarea {
 
 a {
     @include vendor('transition', ('color #{_duration(transitions)} ease', 'border-bottom-color #{_duration(transitions)} ease'));
-    border-bottom: dotted 1px;
-    color: inherit;
+    //border-bottom: dotted 1px;
+    color: _palette(accent1, bg);
+    font-weight: bold;
     text-decoration: none;
 
     &:hover {
-        border-bottom-color: transparent;
+        //border-bottom: 1px solid _palette(accent1, fg);;
+        color: mix(#21b2a6, #000000, 75%),
     }
 }
 
@@ -1549,19 +1551,29 @@ body.is-menu-visible {
 }
 
 .post_right_img {
+    //border-top: 2px solid _palette(bg);
+    //border-left: 2px solid _palette(bg);
+    //border-bottom: 2px solid _palette(bg);
+    //border-right: none;
+    border-radius: 8px;
     max-width: 56%;
     float: right;
     margin-left: 1.2em;
     margin-bottom: 1em;
-    border-bottom: none;
+    //border-bottom: none;
 }
 
 .post_left_img {
-  max-width: 56%;
-  float: left;
-  margin-right: 1.2em;
-  margin-bottom: 1em;
-  border-bottom: none;
+    //border-top: 2px solid _palette(bg);
+    //border-right: 2px solid _palette(bg);
+    //border-bottom: 2px solid _palette(bg);
+    //border-left: none;
+    border-radius: 8px;
+    max-width: 56%;
+    float: left;
+    margin-right: 1.2em;
+    margin-bottom: 1em;
+    //border-bottom: none;
 }
 
 
