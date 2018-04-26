@@ -38,7 +38,7 @@ This will work well, although when trying to concatenate an integer, Python will
 
 The legacy method for string substitution is like this:  
 
-```python
+```py
 >>> print("hello %s" % "world")
 hello world
 
@@ -52,14 +52,14 @@ Pi is equal to 3.141592 and so on
 
 This way it is possible to use placeholders such as `%s` for strings, `%d` for integers, `%f` for floats, `%r` for string representations of Python objects (as provided by the object's `__repr__()` method), and others. Floats are represented by default using 6 decimal digits, but this number can be modified as preferred:  
 
-```python
+```py
 >>> print("Pi is equal to %.2f and so on" % 3.14159265)
 Pi is equal to 3.14 and so on
 ```
 
 A discretional number of elements can be interpolated into the string, by surrounding with braces the variables after the `%` sign (actually, this should be standard also with a single variable, in order to avoid incidental issues):  
 
-```python
+```py
 >>> print("I will go to the %s tomorrow at %d" % ("gym", 6))
 I will go to the gym tomorrow at 6
 
@@ -78,7 +78,7 @@ I am 27 years old
 
 Starting from Python 2.6 on, the `str.format()` is the election method for string formatting, given its great capabilities:  
 
-```python
+```py
 >>> print("hello {}".format("world"))
 hello world
 
@@ -93,14 +93,14 @@ Pi is equal to 3.14159265 and so on
 This way is a bit more straighforward to use, since there's no need to know the variable's type *a priori*: the `{}` placeholder will be equally valid for anything. Furthermore, floats values get rendered exactly as we provide them, with no default truncation to 6 decimal digits.  
 Floats precision can be adjusted as well:  
 
-```python
+```py
 >>> print("Pi is equal to {:.2f} and so on" % 3.14159265)
 Pi is equal to 3.14 and so on
 ```
 
 Multiple variables can be interpolated either using multiple `{}`, thus rendering the variable using the same order found in the `format()` function, or using numbered placeholders such as `{0}`, `{1}`, `{2}`. The latter method allows to interpolate the variable with a different order with respect to the `format()` arguments, referring to each variable with its index:  
 
-```python
+```py
 # using multiple {}
 >>> print("I will go to the {} tomorrow at {}".format("gym", 6))
 I will go to the gym tomorrow at 6
@@ -117,14 +117,14 @@ I will go to the gym tomorrow at 6
 
 The `format()` function's arguments can also be easily referred to using named variables:  
 
-```python
+```py
 >>> print("My name is {name} and I am {age} years old".format(name="Roberto", age=27))
 My name is Roberto and I am 27 years old
 ```
 
 When things get messy, it is possible to substitute variables using key/value pairs stored in a dictionary:  
 
-```python
+```py
 >>> myself = {
     "name": "Roberto", 
     "age": 27

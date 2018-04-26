@@ -66,6 +66,9 @@ markdown: kramdown
 disqus:
   shortname: robertopreste
 
+# Code highlighting
+highlighter: rouge
+
 # Plugins
 
 plugins:

@@ -35,7 +35,7 @@ ATIGENLVVRRFATLKAGANGVVNGYIHTNGRVGVVIAAACDSAEVASKSRDLLRQICMH
 
 So if you want to count the number of sequences contained in a .fasta file, you can easily have it done using the `grep` command:  
 
-```
+```bash
 grep ">" file.fasta | wc -l
 ```  
 
@@ -43,7 +43,7 @@ What this line does is just selecting all the `>` characters, and then count all
 
 Another way of using `grep` on modern systems is to use the following command:  
 
-```
+```bash
 grep -c ">" file.fasta
 ```  
 
@@ -63,7 +63,7 @@ GATTTGGGGTTCAAAGCAGTATCGATCAAATAGTAAATCCATTTGTTCAACTCACAGTTT
 
 This means that counting the number of sequences is easier than expected, and will only require dividing the number of lines in the file by four. This can be done on Bourne shells using these commands:  
 
-```
+```bash
 LINES=`cat file.fastq | wc -l`
 READS=`expr $LINES / 4`
 echo $READS
@@ -71,6 +71,6 @@ echo $READS
 
 On modern shells, such as Bash, this can be done with a simple one-liner:  
 
-```
+```bash
 expr $(cat file.fastq | wc -l) / 4
 ```  

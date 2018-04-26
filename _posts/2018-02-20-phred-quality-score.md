@@ -261,13 +261,13 @@ In fastq files, Phred quality scores are usually represented using [ASCII charac
 
 <p style="clear: both">Even though there are lots of Python, Biopython and stand-alone softwares for dealing with Phred quality scores, a simple command to convert an ASCII character to its correspondent quality score is the following (from the terminal):</p>  
 
-```
+```bash
 python -c 'print ord("<ASCII>")-33'
 ```  
 
 Or, from inside Python:  
 
-```
+```py
 print ord("<ASCII>")-33
 ```  
 

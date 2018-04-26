@@ -26,7 +26,7 @@ Since I often use different types of shells to do my job, I decided to highlight
 
 Regardless of the type of shell running, the PATH variable can be printed using the command:  
 
-```
+```bash
 echo "$PATH"
 ```  
 
@@ -43,13 +43,13 @@ Let’s see how to set the PATH variable, given that the software we want to add
 
 If we want to add this path to the beginning of the PATH variable, the Bash command to do it is:  
 
-```
+```bash
 export PATH=/folder/to/add:$PATH
 ```  
 
 Instead, in order to add this path to the end of the PATH variable:  
 
-```
+```bash
 export PATH=$PATH:/folder/to/add
 ```  
 
@@ -61,13 +61,13 @@ First of all, in TCSH there actually are two PATH variables: the actual `PATH`, 
 
 In order to add the `/folder/to/add` path to the beginning of the PATH variable, in TCSH the command is:  
 
-```
+```bash
 set PATH = ( /folder/to/add $PATH )
 ```  
 
 On the other way, to add this path to the end of the PATH variable:  
 
-```
+```bash
 set PATH = ( $PATH /folder/to/add )
 ```  
 
@@ -79,7 +79,7 @@ Changes to the PATH variable in the ways shown above are just temporary. This me
 
 Remember to always reference the current PATH variable when changing it. A command like:  
 
-```
+```bash
 export PATH=/folder/to/add
 ```  
 
