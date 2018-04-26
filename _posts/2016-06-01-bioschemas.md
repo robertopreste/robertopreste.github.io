@@ -6,11 +6,11 @@ category: webdev
 tags: 
  - jekyll
  - html
-image: /images/bioschemas_capture.jpg
+image: /images/bioschemas_capture.png
 description: The Bioschemas projects was created to encourage people in life science to use schema.org markup, for consistently structured and discoverable information.
 techs: Developed using Jekyll and GitHub Pages. 
 ---
-[![Bioschemas](/images/bioschemas_capture.jpg)](http://bioschemas.org){: .post_right_img}
+[![Bioschemas](/images/bioschemas_capture.png)](http://bioschemas.org){: .post_right_img}
 
 [Bioschemas](http://bioschemas.org) is a collaborative effort that aims to improve data interoperability in life sciences.  
 
