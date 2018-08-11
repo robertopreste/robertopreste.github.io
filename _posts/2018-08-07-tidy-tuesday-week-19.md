@@ -13,7 +13,8 @@ description: "My post for Week 19 of the #TidyTuesday weekly project."
 ---
 This is an extract from my work for week 19 of the [#TidyTuesday](https://thomasmock.netlify.com/post/tidytuesday-a-weekly-social-data-project-in-r/) project.  
 
-This week's dataset was focused on airlines' accidents, particularly on differences between the 1985-1999 and 2000-2014 years. I decided to highlight how much each airline company reduced (or not) the amount of incidents, fatalities and fatal accidents in recent years. More information on these categories of accidents can be found in the [original article](https://fivethirtyeight.com/features/should-travelers-avoid-flying-airlines-that-have-had-crashes-in-the-past/).  
+This week's dataset was focused on airlines' accidents, particularly on differences between the 1985-1999 and 2000-2014 years. I decided to highlight how much each airline company reduced (or not) the amount of incidents, fatalities and fatal accidents in recent years.  
+More information on these categories of accidents can be found in the [original article](https://fivethirtyeight.com/features/should-travelers-avoid-flying-airlines-that-have-had-crashes-in-the-past/).  
 
 All code and data can be found in my dedicated GitHub repository [MyTidyTuesday](https://github.com/robertopreste/MyTidyTuesday).  
 

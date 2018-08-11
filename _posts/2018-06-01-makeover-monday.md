@@ -16,7 +16,7 @@ description: "My posts for the #MakeoverMonday weekly data project."
 
 For this project, [Tableau](https://www.tableau.com) is the tool of choice, given its great capabilities at creating visualization dashboards that allow to focus on different details of the underlying data.  
 
-All my dashboards are available in my [Tableau Public](https://public.tableau.com/profile/roberto.preste#!/) profile, but I will post my work here as well, in the [Data Science](/datascience) section using the [#MakeoverMonday](/tags/#makeovermonday) tag.  
+All my dashboards are available on my [Tableau Public](https://public.tableau.com/profile/roberto.preste#!/) profile, but I will post my work here as well, in the [Data Science](/datascience) section using the [#MakeoverMonday](/tags/#makeovermonday) tag.  
   
 
 
