@@ -11,7 +11,7 @@ tags:
 image: /images/tidy_tuesday.png
 description: "My post for Week 23 of the #TidyTuesday weekly project."
 ---
-This is my work for week 20 of the [#TidyTuesday](https://thomasmock.netlify.com/post/tidytuesday-a-weekly-social-data-project-in-r/) project.  
+This is my work for week 23 of the [#TidyTuesday](https://thomasmock.netlify.com/post/tidytuesday-a-weekly-social-data-project-in-r/) project.  
 
 This week's dataset was about nutritional information from several fast food franchises, with data regarding entrees food in particular. Since I am a bit busy at work after the summer holidays, I haven't had much time to deeply explore this dataset. A more complete analysis can be found in the in the [original article](https://www.franchiseopportunities.com/blog/general-franchise-information/fast-food-calorie-comparison-charts), or by visiting [fastfoodnutrition.org](https://fastfoodnutrition.org), which contains more extensive data on this topic.  
 
