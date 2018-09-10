@@ -139,7 +139,7 @@ df %>%
     coord_flip() + 
     labs(x = "US State", y = "Difference (in 1000s households)", 
          title = "Dog- vs cat-owning households", 
-         subtitle = "Households with dogs definitely outnumber those hosting cats.\nNegative values represent a preference for cats, while positive values denote a higher number of households hosting dogs.") + 
+         subtitle = "Households with dogs definitely outnumber those hosting cats.") + 
     guides(fill = FALSE) + 
     scale_y_continuous(breaks = c(-250, 0, 250, 500, 750, 1000, 1250))
 ```
@@ -187,7 +187,7 @@ gath_df %>%
     geom_point(alpha = 0.5) + 
     labs(x = "Households (in 1000s)", y = "Number of pets", 
          title = "Mean number of dogs/cats per household", 
-         subtitle = "The number of pets per household seems to reach a plateau after 1 million households with pets.")
+         subtitle = "The number of pets per household seems to reach a plateau after 1M households with pets.")
 ```
 
 ![](/images/Week_24_files/figure-markdown_github/unnamed-chunk-9-1.png)
@@ -238,7 +238,7 @@ norm_df %>%
     coord_flip() + 
     labs(x = "US State", y = "Difference (in 1000s households)", 
          title = "Dog- vs cat-owning households (normalized)", 
-         subtitle = "With normalized data, we see that cats win the fight.\nNegative values represent a preference for cats, while positive values denote a higher number of households hosting dogs.") + 
+         subtitle = "With normalized data, we see that cats win the fight.") + 
     guides(fill = FALSE) + 
     scale_y_continuous(breaks = c(-1000, -500, 0, 500, 1000, 1500))
 ```
@@ -255,7 +255,7 @@ df %>%
     coord_flip() + 
     labs(x = "US State", y = "Difference (in 1000s pets)", 
          title = "Difference of dog/cat population", 
-         subtitle = "Most US States host cats, rather than dogs.\nNegative values represent cats outnumbering dogs, while positive values denote a higher number of dogs.") + 
+         subtitle = "Most US States host cats, rather than dogs.") + 
     guides(fill = FALSE) + 
     scale_y_continuous(breaks = c(-1000, -500, 0, 500, 1000, 1500))
 ```
