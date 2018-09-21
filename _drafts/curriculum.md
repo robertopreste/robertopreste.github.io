@@ -40,9 +40,9 @@ Sex: M | Date of birth: 02/01/1991 | Nationality: Italian
 
 * * *
 
-##### April - May 2018
+##### May 2018
 
-#### Web Developer
+#### Bioinformatician
 
 _ELIXIR Project "Integration of the ELIXIR-IIB HmtDB resource into RD-Connect", Institute of Biomembranes, Bioenergetics and Molecular Biotechnologies, National Research Council, Bari, Italy_
 
