@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Parse an XML file to a pandas DataFrame
-permalink: /blog/parse-xml-to-dataframe
+title: Parse an XML file into a pandas DataFrame
+permalink: /blog/parse-xml-into-dataframe
 category: blog
 comments: true
 tags: 
