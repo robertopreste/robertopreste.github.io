@@ -24,13 +24,21 @@ Sex: M | Date of birth: 02/01/1991 | Nationality: Italian
 
 ### Publications
 
+* * * 
+
+__*Preste R*__, *Vitale O*, *Clima R*, *Gasparre G*, *Attimonelli M* - **HmtVar: a new resource for human mitochondrial variations and pathogenicity data** - Nucleic Acids Res, 2018 (doi: [10.1093/nar/gky1024](https://doi.org/10.1093/nar/gky1024))
+
+* * * 
+
+__*Preste R*__, *Vitale O*, *Clima R*, *Attimonelli M* - **HmtVar: a brand-new resource for human mitochondrial variations and pathogenicity data** - bioRxiv, 2018 (doi: [10.1101/355461](https://doi.org/10.1101/355461))
+
 * * *
 
 *Calabrese FM*, *Balacco DL*, __*Preste R*__, *Diroma MA*, *Forino R*, *Ventura M*, *Attimonelli M* - **NumtS colonization in mammalian genomes** - Sci Rep, 2017 (doi: [10.1038/s41598-017-16750-2](https://doi.org/10.1038/s41598-017-16750-2))
 
 * * *
 
-*Clima R*, __*Preste R*__, *Calabrese C*, *Diroma MA*, *Santorsola M*, *Scioscia G*, *Simone D*, *Shen L*, *Gasparre G*, *Attimonelli M* - **HmtDB 2016: data update, a better performing query system and human mitochondrial DNA haplogroup predictor** - Nucleic Acid Res, 2017 (doi: [10.1093/nar/gkw1066](https://doi.org/10.1093/nar/gkw1066))
+*Clima R*, __*Preste R*__, *Calabrese C*, *Diroma MA*, *Santorsola M*, *Scioscia G*, *Simone D*, *Shen L*, *Gasparre G*, *Attimonelli M* - **HmtDB 2016: data update, a better performing query system and human mitochondrial DNA haplogroup predictor** - Nucleic Acids Res, 2017 (doi: [10.1093/nar/gkw1066](https://doi.org/10.1093/nar/gkw1066))
 
 * * *
 
