@@ -123,7 +123,7 @@ def parse_XML(xml_file, df_cols):
         res = []
         res.append(node.attrib.get(df_cols[0]))
         for el in df_cols[1:]: 
-            if node is not None:
+            if node is not None and node.find(el) is not None:
                 res.append(node.find(el).text)
             else: 
                 res.append(None)
