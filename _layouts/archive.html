@@ -9,15 +9,17 @@ layout: default
         <p>{{ page.description }}</p>
     </header>
 
-    <section class="wrapper alt2 style5">
-        <div class="inner">
-            {{ content }}
-        </div>
-    </section>
+    {% if page.category == "about" or page.title == "Tags" or page.title == "Contact Me" %}
+        <section class="wrapper alt2 style3">
+            <div class="inner">
+                {{ content }}
+            </div>
+        </section>
+    {% endif %}
 
 </article>
 
-<section class="wrapper alt style2">
+<section class="wrapper alt style3">
 
     {% for post in site.posts %}
     {% for cat in post.categories %}
