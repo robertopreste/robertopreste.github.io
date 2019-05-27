@@ -2,6 +2,7 @@
 layout: post
 title: Counting Sequences in Fasta/Fastq Files
 permalink: /blog/counting-sequences-fastq
+redirect_to: https://medium.com/@robertopreste/counting-sequences-in-fasta-fastq-files-ad7d2675b40f
 category: blog
 comments: true
 tags: 
