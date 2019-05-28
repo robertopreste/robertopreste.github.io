@@ -2,6 +2,7 @@
 layout: post
 title: Tidy Tuesday - Week 19
 permalink: /datascience/tidy-tuesday-week-19
+redirect_to: http://rpubs.com/robertopreste/tidy-tuesday-2018-week-19
 category: datascience
 comments: true
 tags: 
