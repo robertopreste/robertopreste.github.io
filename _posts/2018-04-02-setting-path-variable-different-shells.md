@@ -2,6 +2,7 @@
 layout: post
 title: Setting PATH Variable in Different Shells
 permalink: /blog/setting-path-variable-different-shells
+redirect_to: https://medium.com/@robertopreste/setting-the-path-in-different-shells-61b128f923b9
 category: blog
 comments: true
 tags: 
