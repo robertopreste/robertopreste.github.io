@@ -2,6 +2,7 @@
 layout: post
 title: Tidy Tuesday - Week 27
 permalink: /datascience/tidy-tuesday-week-27
+redirect_to: https://github.com/robertopreste/MyTidyTuesday/blob/master/Week_27/Week_27.md
 category: datascience
 comments: true
 tags: 
