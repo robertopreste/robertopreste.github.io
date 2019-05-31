@@ -1,22 +1,20 @@
-<!-- Header -->
-<header id="header"{% if page.layout == 'landing' %} class="alt"{% endif %}>
-<h1><a href="{{ site.baseurl }}/index.html" title="{{ site.title }}">{{ site.title }}</a></h1>
-<nav id="nav">
-    <ul>
-        <li class="special">
-            <a href="#menu" class="menuToggle" title="Menu"><span>Menu</span></a>
-            <div id="menu">
-                <ul>
-                    <li><a href="/index.html" title="Home">Home</a></li>
-                    {% for my_page in site.pages %}
-                    {% if my_page.title %}
-                    <li><a href="{{ my_page.url | prepend: site.baseurl }}" title="{{ my_page.title }}">{{ my_page.title }}</a></li>
-                    {% endif %}
-                    {% endfor %}
-                    <li><a href="{{ '/feed.xml' | prepend: site.baseurl }}" class="icon fa-feed" title="RSS Feed"> RSS Feed</a></li>
-                </ul>
-            </div>
-        </li>
-    </ul>
-</nav>
+<header id="header">
+    <div class="logo">
+        <img src="/images/preste_roberto_web.jpg" alt="Roberto Preste" style="width: 100%; border-radius: 50%;">
+    </div>
+    <div class="content">
+        <div class="inner">
+            <h1>{{ site.title }}</h1>
+            <p>{{ site.description }}</p>
+        </div>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#intro">Intro</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 </header>

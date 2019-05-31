@@ -1,36 +1,31 @@
 <!DOCTYPE html>
-
 <html>
-
 {% include head.html %}
-
-<body class="landing">
-
-<!-- Loader -->
-<div id="loader-wrapper">
-    <div id="loader"></div>
-
-    <div class="loader-section section-left"></div>
-    <div class="loader-section section-right"></div>
-</div>
-
-<!-- Page Wrapper -->
-<div id="page-wrapper">
-
-    <div id="content">
-
+<body class="is-preload">
+<!-- Particles bg -->
+<div id="particles-js"></div>
+<!-- Wrapper -->
+<div id="wrapper">
+    <!-- Header -->
     {% include header.html %}
-
-    {{ content }}
-
-    {% include footer.html %}
-
-    {% include scripts.html %}
-
+    <!-- Main -->
+    <div id="main">
+        <!-- Intro -->
+        {% include intro.html %}
+        <!-- About -->
+        {% include about.html %}
+        <!-- Work -->
+        {% include work.html %}
+        <!-- Blog -->
+        {% include blog.html %}
+        <!-- Contact -->
+        {% include contact.html %}
     </div>
-
+    <!-- Footer -->
+    {% include footer.html %}
 </div>
-
+<!-- BG -->
+<!--<div id="bg"></div>-->
+{% include scripts.html %}
 </body>
-
 </html>
