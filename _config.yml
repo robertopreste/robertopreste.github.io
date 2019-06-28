@@ -3,7 +3,7 @@
 
 # Site settings
 title: Roberto Preste
-description: I build software and websites using powerful technologies.
+description: I build software and websites with efficient technologies.
 owner: Roberto Preste # or company name
 #first_published: 2018 # if migrating another site, the year of your first publish
 email: roberto.preste@gmail.com
@@ -13,8 +13,8 @@ social:
   twitter: https://twitter.com/robertopreste
   github: https://github.com/robertopreste
   medium: https://medium.com/@robertopreste
-  linkedin-square: https://linkedin.com/in/robertopreste
-  facebook-official: https://facebook.com/robertopreste
+  linkedin: https://linkedin.com/in/robertopreste
+  facebook: https://facebook.com/robertopreste
   email: mailto:roberto.preste@gmail.com
   #google-plus-square: https://plus.google.com/u/0/+RobertoPreste
   #flickr:

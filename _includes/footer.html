@@ -1,31 +1,30 @@
 <footer id="footer">
     <ul class="icons">
         {% for socloc in site.social %}
-            {% if socloc[1] %}
-                {% if socloc[0] == 'email' %}
-                <li>
-                    <a target="_blank" href="{{ socloc[1] }}" class="icon fa-envelope" title="Email">
-                        <span class="label">E-mail</span>
-                    </a>
-                </li>
-                {% else %}
-                <li>
-                    <a target="_blank" href="{{ socloc[1] }}" class="icon fa-{{ socloc[0] }}" title="{{ socloc[0] }}">
-                        <span class="label">{{ socloc[0] }}</span>
-                    </a>
-                </li>
-                {% endif %}
-            {% endif %}
+        {% if socloc[1] %}
+        {% if socloc[0] == 'email' %}
+        <li>
+            <a target="_blank" href="{{ socloc[1] }}" title="Email">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </li>
+        {% else %}
+        <li>
+            <a target="_blank" href="{{ socloc[1] }}" title="{{ socloc[0] }}">
+                <i class="fab fa-{{ socloc[0] }}"></i>
+            </a>
+        </li>
+        {% endif %}
+        {% endif %}
         {% endfor %}
-
     </ul>
     <p class="copyright">
         &copy; {% assign thisyear = site.time | date: "%Y" %}
-            {% if site.first_published %}
-            {% capture diff %}{{ site.first_published | minus:thisyear }}{% endcapture %}
-            {% if diff contains '-' %}{{ site.first_published }},{% endif %}
-            {% endif %}
-            {{ thisyear }} |
-            {% if site.owner %}{{ site.owner }}{% else %}{{ site.title }}{% endif %}
+        {% if site.first_published %}
+        {% capture diff %}{{ site.first_published | minus:thisyear }}{% endcapture %}
+        {% if diff contains '-' %}{{ site.first_published }},{% endif %}
+        {% endif %}
+        {{ thisyear }} |
+        {% if site.owner %}{{ site.owner }}{% else %}{{ site.title }}{% endif %}
     </p>
 </footer>

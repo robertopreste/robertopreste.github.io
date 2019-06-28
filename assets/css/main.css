@@ -1,4 +1,3 @@
-@import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 
 html, body, div, span, applet, object,
@@ -91,7 +90,11 @@ html {
 }
 
 body {
-    background: #1b1f22;
+    /*background: #1b1f22;*/
+    /*background: #00356B;*/
+    background-image: radial-gradient(circle, #13505b, #135763, #125d6c, #116474, #0f6b7d, #107387, #117c91, #12849b, #1690a9, #1b9cb7, #1fa8c5, #23b5d3);
+    /*background-image: radial-gradient(circle, #13505b, #135763, #125d6c, #116474, #0f6b7d, #096879, #046674, #006370, #00565e, #004a4d, #023d3d, #03312e);*/
+    /*background-image: radial-gradient(circle, #03312e, #043736, #053c3e, #084246, #0c484f, #0e4e56, #10535e, #125966, #11606e, #106677, #0e6d80, #0c7489);*/
 }
 
 body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -213,7 +216,7 @@ h3 {
 }
 
 h4 {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 h5 {
@@ -624,8 +627,8 @@ input[type="radio"] + label:before {
 
 .image:before {
     pointer-events: none;
-    background-image: url("../../images/overlay.png");
-    background-color: rgba(19, 21, 25, 0.5);
+    /*background-image: url("../../images/overlay.png");*/
+    /*background-color: rgba(19, 21, 25, 0.5);*/
     border-radius: 4px;
     content: '';
     display: block;
@@ -1117,7 +1120,7 @@ button {
     -webkit-transition-delay: 0.75s;
     -ms-transition-delay: 0.75s;
     transition-delay: 0.75s;
-    background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
+    /*background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");*/
     background-size: auto, 256px 256px;
     background-position: center, center;
     background-repeat: no-repeat, repeat;
@@ -1133,7 +1136,7 @@ button {
     -webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
     -ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
     transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-    background-image: url("../../images/bg.jpg");
+    /*background-image: url("../../images/bg.jpg");*/
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1229,10 +1232,10 @@ body.is-preload #bg:before {
     -webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
     -ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
     transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-    background-image: -moz-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
-    background-image: -webkit-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
-    background-image: -ms-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
-    background-image: radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
+    /*background-image: -moz-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);*/
+    /*background-image: -webkit-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);*/
+    /*background-image: -ms-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);*/
+    /*background-image: radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);*/
     max-width: 100%;
     text-align: center;
 }
@@ -1522,7 +1525,8 @@ body.is-preload #header .content .inner {
     width: 40rem;
     max-width: 100%;
     /*background-color: rgba(27, 31, 34, 0.85);*/
-    background-color: rgba(20, 23, 25, 0.85);
+    /*background-color: rgba(20, 23, 25, 0.85);*/
+    background-color: rgba(3, 49, 46, 0.90);
     border-radius: 4px;
     opacity: 0;
 }
