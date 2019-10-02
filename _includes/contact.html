@@ -1,25 +1,29 @@
-<article id="contact">
-    <h2 class="major">Contact</h2>
-    <p>Drop me a line, I will get in touch as soon as possible.</p>
+<article id="contact" class="panel">
+    <header>
+        <h2>Contact</h2>
+        <p>Drop me a line, I will get in touch as soon as possible.</p>
+    </header>
     <form action="https://formspree.io/roberto.preste@gmail.com" method="POST" />
-        <div class="fields">
-            <div class="field half">
+    <div>
+        <div class="row">
+            <div class="col-6 col-12-medium">
                 <input type="text" name="Name" id="Name" value="" placeholder="Name" />
             </div>
-            <div class="field half">
+            <div class="col-6 col-12-medium">
                 <input type="email" name="_replyto" id="Email" value="" placeholder="Email" />
             </div>
-            <div class="field">
+            <div class="col-12">
                 <input type="text" name="_subject" id="Subject" value="" placeholder="Subject">
             </div>
-            <div class="field">
+            <div class="col-12">
                 <textarea name="Message" id="Message" placeholder="Enter your message" rows="6"></textarea>
             </div>
             <input type="hidden" name="_next" value="#thanks">
+            <div class="col-12">
+                <input type="submit" value="Send Message" />
+                <input type="reset" value="Reset"/>
+            </div>
         </div>
-        <ul class="actions">
-            <li><input type="submit" value="Send Message" class="primary"/></li>
-            <li><input type="reset" value="Reset"/></li>
-        </ul>
+    </div>
     </form>
 </article>
