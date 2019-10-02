@@ -313,7 +313,9 @@ var entries = [
     {label: 'Jekyll', url: 'https://jekyllrb.com', target: '_blank'},
     {label: 'Conda', url: 'https://docs.conda.io/en/latest/', target: '_blank'},
     {label: 'Plotly', url: 'https://plot.ly/', target: '_blank'},
-    {label: 'asyncio', url: 'https://docs.python.org/3/library/asyncio.html', target: '_blank'}
+    {label: 'asyncio', url: 'https://docs.python.org/3/library/asyncio.html', target: '_blank'},
+    {label: 'TensorFlow', url: 'https://www.tensorflow.org', target: '_blank'},
+    {label: 'Keras', url: 'https://keras.io', target: '_blank'}
 ];
 
 var settings = {

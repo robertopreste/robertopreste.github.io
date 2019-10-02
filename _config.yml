@@ -73,7 +73,6 @@ disqus:
 highlighter: rouge
 
 # Plugins
-
 plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
