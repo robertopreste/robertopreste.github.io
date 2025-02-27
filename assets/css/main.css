@@ -2373,6 +2373,14 @@ body.is-preload #wrapper {
     color: #23B500;
 }
 
+@media screen and (max-width: 736px) {
+
+    .tagcloud {
+        font-size: 14px;
+    }
+
+}
+
 /* Particles.js background */
 
 #particles-js canvas {
