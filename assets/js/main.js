@@ -219,62 +219,28 @@ document.addEventListener("DOMContentLoaded", function () {
 	});
 });
 
-// 3D Tag Cloud
-
-var entries = [
-	{label: 'Python', url: 'https://www.python.org', target: '_blank'},
-	{label: 'R', url: 'https://www.r-project.org', target: '_blank'},
-	{label: 'Flask', url: 'http://flask.pocoo.org', target: '_blank'},
-	{label: 'SQLite', url: 'https://www.sqlite.org/index.html', target: '_blank'},
-	{label: 'GitHub', url: 'https://github.com', target: '_blank'},
-	{label: 'pandas', url: 'https://pandas.pydata.org', target: '_blank'},
-	{label: 'NumPy', url: 'https://www.numpy.org', target: '_blank'},
-	{label: 'scikit-learn', url: 'https://scikit-learn.org/stable/', target: '_blank'},
-	{label: 'Wordpress', url: 'https://wordpress.com/', target: '_blank'},
-	{label: 'Seaborn', url: 'https://seaborn.pydata.org', target: '_blank'},
-	{label: 'Matplotlib', url: 'https://matplotlib.org', target: '_blank'},
-	{label: 'Tidyverse', url: 'https://www.tidyverse.org', target: '_blank'},
-	{label: 'HTML', url: 'https://developer.mozilla.org/en-US/docs/Web/HTML', target: '_blank'},
-	{label: 'CSS', url: 'https://developer.mozilla.org/en-US/docs/Web/CSS', target: '_blank'},
-	{label: 'Javascript', url: 'https://www.javascript.com', target: '_blank'},
-	{label: 'Jekyll', url: 'https://jekyllrb.com', target: '_blank'},
-	{label: 'Conda', url: 'https://docs.conda.io/en/latest/', target: '_blank'},
-	{label: 'Plotly', url: 'https://plot.ly/', target: '_blank'},
-	{label: 'asyncio', url: 'https://docs.python.org/3/library/asyncio.html', target: '_blank'},
-	{label: 'TensorFlow', url: 'https://www.tensorflow.org', target: '_blank'},
-	{label: 'Keras', url: 'https://keras.io', target: '_blank'}
+// TagCloud
+const tagskills = [
+    'Python', 'R', 'Flask', 'SQL', 'Git', 'pandas', 'NumPy', 'Wordpress', 'HTML', 'CSS', 'JavaScript', 'TypeScript',
+    'Angular', 'AWS', 'Kubernetes', 'Helm', 'Docker', 'CI/CD', 'Kafka', 'Snowflake', 'Terraform', 'C#', 'Go'
 ];
 
-var settings = {
-	entries: entries,
-	width: 480,
-	height: 480,
-	radius: '65%',
-	radiusMin: 75,
-	bgDraw: false,
-	bgColor: 'rgba(20, 23, 25, 0.3)',
-	opacityOver: 1.00,
-	opacityOut: 0.05,
-	opacitySpeed: 6,
-	fov: 800,
-	speed: 1,
-	fontFamily: 'Source Sans Pro, sans-serif',
-	fontSize: '16',
-	fontColor: '#23B5D3',
-	fontWeight: 'bold', //normal
-	fontStyle: 'normal', //italic
-	fontStretch: 'normal', //wider, narrower, ultra-condensed, extra-condensed, condensed, semi-condensed, semi-expanded, expanded, extra-expanded, ultra-expanded
-	fontToUpperCase: true,
-	tooltipFontFamily: 'Source Sans Pro, sans-serif',
-	tooltipFontSize: '11',
-	tooltipFontColor: '#fff',
-	tooltipFontWeight: 'normal', //bold
-	tooltipFontStyle: 'normal', //italic
-	tooltipFontStretch: 'normal', //wider, narrower, ultra-condensed, extra-condensed, condensed, semi-condensed, semi-expanded, expanded, extra-expanded, ultra-expanded
-	tooltipFontToUpperCase: false,
-	tooltipTextAnchor: 'left',
-	tooltipDiffX: 0,
-	tooltipDiffY: 10
-};
+var tagCloud = TagCloud('.tagcloud', tagskills, {
 
-$('#tagcloud').svg3DTagCloud(settings);
+  // radius in px
+  radius: 300,
+
+  // animation speed
+  // slow, normal, fast
+  maxSpeed: 'normal',
+  initSpeed: 'normal',
+
+  // 0 = top
+  // 90 = left
+  // 135 = right-bottom
+  direction: 135,
+
+  // interact with cursor move on mouse out
+  keep: true
+
+});

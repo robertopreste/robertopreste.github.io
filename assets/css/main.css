@@ -2363,6 +2363,16 @@ body.is-preload #wrapper {
 
 }
 
+/* TagCloud */
+
+.tagcloud {
+    font-size: 18px;
+    color: #23B5D3;
+}
+.tagcloud--item:hover {
+    color: #23B500;
+}
+
 /* Particles.js background */
 
 #particles-js canvas {

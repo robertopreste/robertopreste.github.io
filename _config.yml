@@ -2,7 +2,7 @@
 
 # Site settings
 title: Roberto Preste
-description: Software Engineer.
+description: Sr Software Engineer.
 owner: Roberto Preste # or company name
 #first_published: 2018 # if migrating another site, the year of your first publish
 email: roberto.preste@gmail.com
@@ -50,8 +50,8 @@ social:
   #amazon:
 
 logo: /images/favicon.png
-image: /images/preste_roberto_web.jpg
-image_large: /images/preste_roberto_large.jpg
+image: /images/profile3-min.jpg
+image_large: /images/profile4-min.jpg
 google_site_verification_1: UA-111558547-1
 google_site_verification_3: UA-111558547-3
 google_site_verification_4: UA-111558547-4
